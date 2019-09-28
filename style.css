@@ -1,0 +1,49 @@
+
+html {
+  height: 100%;
+  text-align: right;
+  width: relative;
+  position: relative;
+  font-family: 'Arimo'
+  }
+body {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  padding-right: 0;
+  margin-right: 0;
+  text-align: right;
+  color: white;
+  background-image: url('The_Power_of_Music_by_William_Sidney_Mount,_1847,.png');
+  background-size: 60rem;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  }
+  .navbar {
+    direction: rtl;
+  }
+h1,p {
+  width:relative;
+  margin-right: 5rem;
+  margin-top: 7rem;
+  color: white;
+  text-shadow: 0.1rem 0.1rem grey;
+  }
+img.menu-button {
+  width:25.3rem;
+  margin-top: -3.6rem;
+  margin-right: -2.6rem;
+  }
+img.menu-button:hover {
+  transform: scale(1.1);
+  transition: all 2s ease-in-out;
+  }
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: green;
+  color: white;
+  text-align: center;
+  }
