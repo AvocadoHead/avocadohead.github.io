@@ -14,29 +14,48 @@ body {
   margin-right: 0;
   text-align: right;
   color: white;
-  background-image: url('The_Power_of_Music_by_William_Sidney_Mount,_1847,.png');
+  background-image: url('The_Power_of_Music_by_William_Sidney_Mount,_1847,.jpg');
   background-size: 60rem;
   background-position-x: right;
   background-repeat: no-repeat;
   }
   .navbar {
+    align-self: flex-start;
     direction: rtl;
   }
+  .page-container {
+    direction: rtl;
+    display:flex;
+    flex-flow: row;
+    align-items: flex-start;
+  }
+form {
+  width: 60rem;
+align-items: flex-start;
+}
+
 h1,p {
-  width:relative;
+  width:50rem;
   margin-right: 5rem;
   margin-top: 7rem;
   color: white;
   text-shadow: 0.1rem 0.1rem grey;
-  }
+  background-color: grey;
+  backface-visibility: 40%;
+    }
 img.menu-button {
+
   width:25.3rem;
-  margin-top: -3.6rem;
-  margin-right: -2.6rem;
+  margin-top: -3.55rem;
+
   }
 img.menu-button:hover {
   transform: scale(1.1);
   transition: all 2s ease-in-out;
+  }
+  #mc-embedded-subscribe {
+    background-color: rgba(0,0,0,0);
+    border-color: rgba(0,0,0,0);
   }
 .footer {
   position: fixed;
