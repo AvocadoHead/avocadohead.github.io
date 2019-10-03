@@ -44,7 +44,7 @@ h1,p {
   backface-visibility: 40%;
     }
 img.menu-button {
-
+justify-content: flex-start;
   width:25.3rem;
   margin-top: -3.55rem;
 
@@ -52,6 +52,9 @@ img.menu-button {
 img.menu-button:hover {
   transform: scale(1.1);
   transition: all 2s ease-in-out;
+  }
+  #mc_embed_signup#form {
+    text-align: right;
   }
   #mc-embedded-subscribe {
     background-color: rgba(0,0,0,0);
