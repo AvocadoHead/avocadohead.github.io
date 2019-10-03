@@ -32,6 +32,7 @@ body {
 form {
   width: 60rem;
 align-items: flex-start;
+text-align: right;
 }
 
 h1,p {
